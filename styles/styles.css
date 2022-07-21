@@ -82,6 +82,7 @@ header {
     /* height: 646px; */
     margin-bottom: 130px;
     animation: change-bg 20s linear infinite;
+    margin-top: 10px;
 
 }
 
