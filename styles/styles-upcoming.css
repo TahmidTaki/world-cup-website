@@ -270,6 +270,19 @@ header {
 }
 
 
+.hidden-button {
+    background-image: linear-gradient(tomato, rgb(255, 89, 0));
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 187px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    display: none;
+}
+
+
 /* footer css */
 footer {
     background-color: black;
@@ -414,6 +427,11 @@ footer hr {
     .side-buttons {
         width: 150px;
         margin-bottom: 0px;
+    }
+
+
+    .hidden-button {
+        display: flex;
     }
 
 
